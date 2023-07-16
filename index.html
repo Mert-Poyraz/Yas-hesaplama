@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaşın Kaç?</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+   <div style="background-image:url(https://images.immediate.co.uk/production/volatile/sites/3/2021/10/squid-game-5db82c1.jpg);" class="bg-cover h-screen w-screen place-items-center grid">
+    <h1 class="text-7xl font-extralight text-center text-yellow-50 ">KAÇ YAŞINDASIN ? </h1>
+    <form class="text-3xl relative bottom-56 " id="userForm" >
+    
+        <input class="w-14 text-center rounded-xl border-black"  max=31   placeholder="DD" id="ageDDUser" type="number">
+        <input class="w-16 text-center rounded-xl"  max=12   type="number" placeholder="MM" id="ageMMUser">
+        <input class="w-24 text-center rounded-xl"  max=2023 min="1900" type="number" placeholder="YYYY" id="ageYUser">
+        <button class="w-full py-1 text-xl text-center text-white transition-colors duration-300 bg-green-400 rounded-full hover:bg-green-500 ease px-6 md:w-auto"  type="submit" >Hesapla</button>
+    </form>
+   <div id="result">
+
+   </div>
+    
+
+   </div>
+
+    <script src="age.js" ></script>
+</body>
+</html>
